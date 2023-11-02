@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.zeburan</groupId>
+    <artifactId>springbootdemo</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.5.3</version>
+        <relativePath/>
+    </parent>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <selenium.version>4.9.1</selenium.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.boot</groupId>-->
+        <!--            <artifactId>spring-boot-devtools</artifactId>-->
+        <!--            <scope>runtime</scope>-->
+        <!--        </dependency>-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>2.0.7.graal</version>
+        </dependency>
+        <dependency>
+            <groupId>com.jayway.jsonpath</groupId>
+            <artifactId>json-path</artifactId>
+            <version>2.6.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-starter -->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>2.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-cache</artifactId>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.github.ben-manes.caffeine/caffeine -->
+        <dependency>
+            <groupId>com.github.ben-manes.caffeine</groupId>
+            <artifactId>caffeine</artifactId>
+            <version>2.9.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-mock -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-mock</artifactId>
+            <version>2.0.8</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+            <scope>provided</scope>
+        </dependency>
+        <!--        升级原因：https://github.com/selenide/selenide/issues/2029-->
+        <dependency>
+            <groupId>com.codeborne</groupId>
+            <artifactId>selenide</artifactId>
+            <version>6.10.1</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+        </dependency>
+        <!--	七牛云存储	-->
+        <dependency>
+            <groupId>com.qiniu</groupId>
+            <artifactId>qiniu-java-sdk</artifactId>
+            <version>7.7.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.5</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.qiniu</groupId>
+            <artifactId>happy-dns-java</artifactId>
+            <version>0.1.6</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>ru.yandex.clickhouse</groupId>
+            <artifactId>clickhouse-jdbc</artifactId>
+            <version>0.2.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.2.5</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc8 -->
+        <dependency>
+            <groupId>com.oracle.database.jdbc</groupId>
+            <artifactId>ojdbc8</artifactId>
+            <version>23.2.0.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.alibaba/druid-spring-boot-starter -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <version>1.2.18</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.alibaba/druid 用这个监控不了SQL-->
+        <!--        <dependency>-->
+        <!--            <groupId>com.alibaba</groupId>-->
+        <!--            <artifactId>druid</artifactId>-->
+        <!--            <version>1.2.18</version>-->
+        <!--        </dependency>-->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper-spring-boot-starter</artifactId>
+            <version>1.4.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.mybatis.spring.boot</groupId>
+                    <artifactId>mybatis-spring-boot-starter</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>LATEST</version>
+            <!--            <version>1.0.2</version>-->
+        </dependency>
+        <dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>java-testdata-generator</artifactId>
+            <version>1.1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>3.9</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.9</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.retry</groupId>
+            <artifactId>spring-retry</artifactId>
+        </dependency>
+        <!--钉钉新版服务端SDK-->
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>dingtalk</artifactId>
+            <version>1.3.23</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.3.5</version>
+        </dependency>
+        <!--钉钉旧版服务端SDK-->
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>alibaba-dingtalk-service-sdk</artifactId>
+            <version>2.0.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.xuxueli/xxl-job-core -->
+        <dependency>
+            <groupId>com.xuxueli</groupId>
+            <artifactId>xxl-job-core</artifactId>
+            <version>2.4.0</version>
+        </dependency>
+        <!--企业微信-->
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>4.8.1</version>
+            <!--            <scope>compile</scope>-->
+            <!--            <version>3.14.9</version>-->
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.10</version>
+        </dependency>
+        <!-- screen-recorder-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.monte</groupId>-->
+        <!--            <artifactId>screen-recorder</artifactId>-->
+        <!--            <version>0.7.7</version>-->
+        <!--        </dependency>-->
+        <dependency>
+            <groupId>com.github.stephenc.monte</groupId>
+            <artifactId>monte-screen-recorder</artifactId>
+            <version>0.7.7.0</version>
+        </dependency>
+        <!--        格式转换-->
+        <dependency>
+            <groupId>ws.schild</groupId>
+            <artifactId>jave-core</artifactId>
+            <version>2.7.1</version>
+        </dependency>
+        <dependency>
+            <groupId>ws.schild</groupId>
+            <artifactId>jave-nativebin-win64</artifactId>
+            <version>2.7.1</version>
+        </dependency>
+        <!--        minio-->
+        <dependency>
+            <groupId>io.minio</groupId>
+            <artifactId>minio</artifactId>
+            <version>8.3.5</version>
+        </dependency>
+
+  
+        <!-- jedis -->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>4.3.1</version>
+        </dependency>
+        <!-- opencv end -->
+
+        <!--        <dependency
+        >-->
+        <!--            <groupId>org.quartz-scheduler</groupId>-->
+        <!--            <artifactId>quartz</artifactId>-->
+        <!--            <version>2.3.2</version>-->
+        <!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.boot</groupId>-->
+        <!--            <artifactId>spring-boot-starter-quartz</artifactId>-->
+        <!--        </dependency>-->
+        <!--jnatest-->
+        <dependency>
+            <groupId>net.java.dev.jna</groupId>
+            <artifactId>jna-platform</artifactId>
+            <version>5.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>net.java.dev.jna</groupId>
+            <artifactId>jna</artifactId>
+            <version>5.3.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.github.kwhat/jnativehook -->
+        <!--        <dependency>-->
+        <!--            <groupId>com.github.kwhat</groupId>-->
+        <!--            <artifactId>jnativehook</artifactId>-->
+        <!--            <version>2.2.2</version>-->
+        <!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.seleniumhq.selenium</groupId>-->
+        <!--            <artifactId>selenium-java</artifactId>-->
+        <!--            <version>3.3.1</version>-->
+        <!--        </dependency>-->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+        </dependency>
+        <dependency>
+            <groupId>io.appium</groupId>
+            <artifactId>java-client</artifactId>
+            <version>8.1.1</version>
+        </dependency>
+    </dependencies>
+
+</project>
