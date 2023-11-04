@@ -5,7 +5,10 @@ import com.zeburan.springboot.model.SessionUserInfo;
 import com.zeburan.springboot.service.TokenService;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.MDC;
+import org.springframework.beans.BeanWrapper;
+import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 import org.springframework.web.util.ContentCachingRequestWrapper;
@@ -21,25 +24,29 @@ import java.util.UUID;
  */
 @Component
 @Slf4j
+@Order(1)
 public class RequestFilter extends OncePerRequestFilter implements Filter {
 
     @Autowired
     TokenService tokenService;
 
+
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) {
         try {
-            // 如果druid的请求，则不处理
-            if(request.getRequestURI().contains("/druid")){
-                filterChain.doFilter(request, response);
-                return;
-            }
-            //每个请求记录一个traceId,可以根据traceId搜索出本次请求的全部相关日志
-            MDC.put("traceId", UUID.randomUUID().toString().replace("-", "").substring(0, 12));
-            setUsername(request);
-            //使request中的body可以重复读取 https://juejin.im/post/6858037733776949262#heading-4
-            request = new ContentCachingRequestWrapper(request);
+//            // 如果druid的请求，则不处理
+//            if(request.getRequestURI().contains("/druid")){
+//                filterChain.doFilter(request, response);
+//                return;
+//            }
+//            //每个请求记录一个traceId,可以根据traceId搜索出本次请求的全部相关日志
+//            MDC.put("traceId", UUID.randomUUID().toString().replace("-", "").substring(0, 12));
+//            setUsername(request);
+//            //使request中的body可以重复读取 https://juejin.im/post/6858037733776949262#heading-4
+//            request = new ContentCachingRequestWrapper(request);
+            System.out.println("Filter.... RequestFilter1 before");
             filterChain.doFilter(request, response);
+            System.out.println("Filter.... RequestFilter1 after");
         } catch (Exception e) {
 //            throw e;
             log.error("doFilterInternal方法出现异常：", e);
