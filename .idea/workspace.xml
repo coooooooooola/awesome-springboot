@@ -1,49 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b953f36e-8953-4507-87a2-5b95cac18b21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/aop/AopDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/config/FilterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/config/InterceptorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/filter/RequestFilter2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/filter/RequestFilter3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/interceptor/InterceptorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/config/annotation/Logical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-base/src/main/resources/application-windev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-base/src/main/resources/logback-local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/MyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/filter/RequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/filter/RequestFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-macdev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zeburan/springboot/MyApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zeburan/springboot/config/CacheConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zeburan/springboot/config/annotation/Logical.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zeburan/springboot/config/annotation/RequiresPermissions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zeburan/springboot/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zeburan/springboot/dao/LoginDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zeburan/springboot/exception/CommonJsonException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zeburan/springboot/exception/GlobalExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zeburan/springboot/exception/MainsiteErrorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zeburan/springboot/exception/UnauthenticatedException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zeburan/springboot/exception/UnauthorizedException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zeburan/springboot/filter/PermissionAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zeburan/springboot/filter/RequestFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zeburan/springboot/filter/WebLogAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zeburan/springboot/model/SessionUserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zeburan/springboot/service/TokenService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zeburan/springboot/utils/CommonUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zeburan/springboot/utils/constants/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zeburan/springboot/utils/constants/ErrorEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zeburan/springboot/utils/constants/JdbcDriverEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zeburan/springboot/utils/constants/RoleEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/LoginMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/config/FilterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/config/FilterConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/config/InterceptorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/config/InterceptorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/filter/RequestFilter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/filter/RequestFilter2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/filter/RequestFilter3.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/filter/RequestFilter3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/MyApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/aop/AopDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/aop/AopDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/config/CacheConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/config/CacheConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/config/FilterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/config/InterceptorConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/config/annotation/Logical.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/config/annotation/RequiresPermissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/config/annotation/RequiresPermissions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/dao/LoginDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/dao/LoginDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/exception/CommonJsonException.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/exception/CommonJsonException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/exception/MainsiteErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/exception/MainsiteErrorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/exception/UnauthenticatedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/exception/UnauthenticatedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/exception/UnauthorizedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/exception/UnauthorizedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/filter/PermissionAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/filter/PermissionAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/filter/RequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/filter/RequestFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/filter/RequestFilter2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/filter/RequestFilter3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/filter/WebLogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/filter/WebLogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/interceptor/InterceptorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/interceptor/InterceptorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/model/SessionUserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/model/SessionUserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/service/TokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/service/TokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/utils/CommonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/utils/CommonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/utils/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/utils/constants/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/utils/constants/ErrorEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/utils/constants/ErrorEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/utils/constants/JdbcDriverEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/utils/constants/JdbcDriverEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/utils/constants/RoleEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/java/com/zeburan/springbootbase/utils/constants/RoleEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-macdev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/resources/application-macdev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/LoginMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base/src/main/resources/mapper/LoginMapper.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -221,17 +228,17 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
+  <component name="ProjectId" id="2XeGQnnP095Xgo7og4rGiaosPJw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -333,20 +340,38 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/utils" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProject/awesome-springboot/springboot-base/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProject\awesome-springboot\springboot-base\src\main\resources" />
+      <recent name="D:\IdeaProject\awesome-springboot\springboot-base\src\main" />
+      <recent name="D:\IdeaProject\awesome-springboot\springboot-base\src\main\java\com\zeburan\springbootbase" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/utils" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/zeburan/springboot" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/mapper" />
     </key>
@@ -360,46 +385,69 @@
       <recent name="com.zeburan.springboot.model" />
       <recent name="com.zeburan.springboot" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/utils" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/zeburan/springboot" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/service" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/zeburan/springboot/filter" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
-    <configuration name="MyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot-demo" />
+  <component name="RunManager" selected="Spring Boot.SpringbootBaseApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="springbootdemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="springbootdemo" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springbootdemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zeburan.springboot.MyApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zeburan.springboot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zeburan.springboot.MyApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeburan.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-base" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zeburan.springbootbase.SpringbootBaseApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeburan.springbootbase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SpringbootBaseApplication" />
+        <item itemvalue="Spring Boot.MyApplication (1)" />
         <item itemvalue="Spring Boot.MyApplication" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -411,6 +459,9 @@
       <option name="presentableId" value="Default" />
       <updated>1698927147574</updated>
       <workItem from="1698927149549" duration="11741000" />
+      <workItem from="1698927149549" duration="3820000" />
+      <workItem from="1698982118843" duration="6381000" />
+      <workItem from="1701652066709" duration="2788000" />
     </task>
     <servers />
   </component>
@@ -460,7 +511,33 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zeburan/springboot/filter/PermissionAspect.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zeburan/springboot/filter/RequestFilter.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zeburan/springboot/filter/RequestFilter.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zeburan/springboot/service/TokenService.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">

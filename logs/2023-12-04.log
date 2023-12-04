@@ -1,0 +1,60 @@
+2023-12-04 10:13:15.335 INFO  [][] [main] c.z.s.SpringbootBaseApplication:55 - Starting SpringbootBaseApplication using Java 1.8.0_40 on DESKTOP-7KPIAVG with PID 16592 (D:\IdeaProject\awesome-springboot\springboot-base\target\classes started by thtf in D:\IdeaProject\awesome-springboot)
+2023-12-04 10:13:15.342 INFO  [][] [main] c.z.s.SpringbootBaseApplication:663 - The following profiles are active: macdev
+2023-12-04 10:13:20.432 INFO  [][] [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure:55 - Init DruidDataSource
+2023-12-04 10:13:20.746 INFO  [][] [main] r.y.c.ClickHouseDriver:42 - Driver registered
+2023-12-04 10:13:20.953 INFO  [][] [main] c.a.druid.pool.DruidDataSource:1010 - {dataSource-1} inited
+2023-12-04 10:13:22.211 WARN  [][] [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'interceptorConfig': Unsatisfied dependency expressed through field 'interceptorDemo'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.zeburan.springboot.interceptor.InterceptorDemo' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-12-04 10:13:22.213 INFO  [][] [main] c.a.druid.pool.DruidDataSource:2170 - {dataSource-1} closing ...
+2023-12-04 10:13:22.215 INFO  [][] [main] c.a.druid.pool.DruidDataSource:2243 - {dataSource-1} closed
+2023-12-04 10:13:22.301 ERROR [][] [main] o.s.b.d.LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field interceptorDemo in com.zeburan.springbootbase.config.InterceptorConfig required a bean of type 'com.zeburan.springboot.interceptor.InterceptorDemo' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zeburan.springboot.interceptor.InterceptorDemo' in your configuration.
+
+2023-12-04 10:14:22.321 INFO  [][] [main] c.z.s.SpringbootBaseApplication:55 - Starting SpringbootBaseApplication using Java 1.8.0_40 on DESKTOP-7KPIAVG with PID 8092 (D:\IdeaProject\awesome-springboot\springboot-base\target\classes started by thtf in D:\IdeaProject\awesome-springboot)
+2023-12-04 10:14:22.334 INFO  [][] [main] c.z.s.SpringbootBaseApplication:663 - The following profiles are active: macdev
+2023-12-04 10:14:27.298 INFO  [][] [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure:55 - Init DruidDataSource
+2023-12-04 10:14:27.600 INFO  [][] [main] r.y.c.ClickHouseDriver:42 - Driver registered
+2023-12-04 10:14:27.805 INFO  [][] [main] c.a.druid.pool.DruidDataSource:1010 - {dataSource-1} inited
+2023-12-04 10:14:29.058 WARN  [][] [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.zeburan.springboot.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-12-04 10:14:29.059 INFO  [][] [main] c.a.druid.pool.DruidDataSource:2170 - {dataSource-1} closing ...
+2023-12-04 10:14:29.061 INFO  [][] [main] c.a.druid.pool.DruidDataSource:2243 - {dataSource-1} closed
+2023-12-04 10:14:29.137 ERROR [][] [main] o.s.b.d.LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userService in com.zeburan.springbootbase.controller.UserController required a bean of type 'com.zeburan.springboot.service.UserService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zeburan.springboot.service.UserService' in your configuration.
+
+2023-12-04 10:15:20.439 INFO  [][] [main] c.z.s.SpringbootBaseApplication:55 - Starting SpringbootBaseApplication using Java 1.8.0_40 on DESKTOP-7KPIAVG with PID 24504 (D:\IdeaProject\awesome-springboot\springboot-base\target\classes started by thtf in D:\IdeaProject\awesome-springboot)
+2023-12-04 10:15:20.448 INFO  [][] [main] c.z.s.SpringbootBaseApplication:663 - The following profiles are active: macdev
+2023-12-04 10:15:25.545 INFO  [][] [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure:55 - Init DruidDataSource
+2023-12-04 10:15:25.841 INFO  [][] [main] r.y.c.ClickHouseDriver:42 - Driver registered
+2023-12-04 10:15:26.055 INFO  [][] [main] c.a.druid.pool.DruidDataSource:1010 - {dataSource-1} inited
+2023-12-04 10:15:30.516 INFO  [][] [main] c.z.s.SpringbootBaseApplication:61 - Started SpringbootBaseApplication in 11.52 seconds (JVM running for 14.404)
+2023-12-04 10:19:04.909 INFO  [][] [SpringApplicationShutdownHook] c.a.druid.pool.DruidDataSource:2170 - {dataSource-1} closing ...
+2023-12-04 10:19:04.926 INFO  [][] [SpringApplicationShutdownHook] c.a.druid.pool.DruidDataSource:2243 - {dataSource-1} closed
