@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.zeburan</groupId>
-    <artifactId>springbootdemo</artifactId>
+    <artifactId>awesome-springboot</artifactId>
     <version>1.0-SNAPSHOT</version>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -18,6 +18,8 @@
     <modules>
 <!--        AOP、Filter、Interceptor、Log-->
         <module>springboot-base</module>
+<!--        动态数据源、mybatis-->
+        <module>springboot-datasource</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
