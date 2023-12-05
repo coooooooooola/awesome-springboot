@@ -5,17 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b953f36e-8953-4507-87a2-5b95cac18b21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-socket/src/main/java/com/zeburan/springbootsocket/config/MyWebSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-socket/src/main/java/com/zeburan/springbootsocket/config/SocketEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-socket/src/main/java/com/zeburan/springbootsocket/config/TimeTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-socket/src/main/resources/application-macdev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-socket/src/main/resources/application-windev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-socket/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-socket/src/main/resources/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-cache/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-es/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-opencv/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-socket/src/main/java/com/zeburan/springbootsocket/config/WebsocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-socket/src/main/java/com/zeburan/springbootsocket/controller/HealthCheckController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-windows/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-windows/src/main/java/com/zeburan/windows/controller/RobotController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2023-12-05.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2023-12-05.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-socket/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-socket/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-socket/src/main/java/com/zeburan/springbootsocket/config/MyWebSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-socket/src/main/java/com/zeburan/springbootsocket/config/MyWebSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-socket/src/main/resources/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-socket/src/main/resources/demo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,25 +58,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/IdeaProject/awesome-springboot/springboot-socket/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+  </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaProject\awesome-springboot\springboot-socket\src\main\resources" />
-      <recent name="$PROJECT_DIR$/springboot-base" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="D:\IdeaProject\awesome-springboot\springboot-base\src\main\resources" />
-      <recent name="D:\IdeaProject\awesome-springboot\springboot-base\src\main" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/mapper" />
     </key>
@@ -83,69 +82,110 @@
       <recent name="com.zeburan.springboot.model" />
       <recent name="com.zeburan.springboot" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProject\awesome-springboot\springboot-socket\src\main\resources" />
+      <recent name="$PROJECT_DIR$/springboot-base" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="D:\IdeaProject\awesome-springboot\springboot-base\src\main\resources" />
+      <recent name="D:\IdeaProject\awesome-springboot\springboot-base\src\main" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.SpringbootSocketApplication">
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="springbootdemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
       <module name="springbootdemo" />
       <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MyApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springbootdemo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zeburan.springboot.MyApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zeburan.springboot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zeburan.springboot.MyApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springboot-demo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zeburan.springboot.MyApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zeburan.springboot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zeburan.springboot.MyApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringbootBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springboot-base" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zeburan.springbootbase.SpringbootBaseApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zeburan.springbootbase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zeburan.springbootbase.SpringbootBaseApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringbootSocketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springboot-socket" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zeburan.springbootsocket.SpringbootSocketApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zeburan.springbootsocket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zeburan.springbootsocket.SpringbootSocketApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,7 +199,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -180,6 +220,56 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2518" height="514" key="GridCell.Tab.0.bottom" timestamp="1701790666299">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="514" key="GridCell.Tab.0.bottom/2560.292.1440.875/0.0.2560.1440@0.0.2560.1440" timestamp="1701790666299" />
+    <state width="2518" height="514" key="GridCell.Tab.0.bottom/2560.292.1440.875/0.25.2560.1415@0.25.2560.1415" timestamp="1701787886703" />
+    <state width="2518" height="514" key="GridCell.Tab.0.center" timestamp="1701790666295">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="514" key="GridCell.Tab.0.center/2560.292.1440.875/0.0.2560.1440@0.0.2560.1440" timestamp="1701790666295" />
+    <state width="2518" height="514" key="GridCell.Tab.0.center/2560.292.1440.875/0.25.2560.1415@0.25.2560.1415" timestamp="1701787886700" />
+    <state width="2518" height="514" key="GridCell.Tab.0.left" timestamp="1701790666292">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="514" key="GridCell.Tab.0.left/2560.292.1440.875/0.0.2560.1440@0.0.2560.1440" timestamp="1701790666292" />
+    <state width="2518" height="514" key="GridCell.Tab.0.left/2560.292.1440.875/0.25.2560.1415@0.25.2560.1415" timestamp="1701787886698" />
+    <state width="2518" height="514" key="GridCell.Tab.0.right" timestamp="1701790666298">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="514" key="GridCell.Tab.0.right/2560.292.1440.875/0.0.2560.1440@0.0.2560.1440" timestamp="1701790666298" />
+    <state width="2518" height="514" key="GridCell.Tab.0.right/2560.292.1440.875/0.25.2560.1415@0.25.2560.1415" timestamp="1701787886700" />
+    <state width="2518" height="514" key="GridCell.Tab.1.bottom" timestamp="1701790666308">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="514" key="GridCell.Tab.1.bottom/2560.292.1440.875/0.0.2560.1440@0.0.2560.1440" timestamp="1701790666308" />
+    <state width="2518" height="514" key="GridCell.Tab.1.bottom/2560.292.1440.875/0.25.2560.1415@0.25.2560.1415" timestamp="1701787886708" />
+    <state width="2518" height="514" key="GridCell.Tab.1.center" timestamp="1701790666304">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="514" key="GridCell.Tab.1.center/2560.292.1440.875/0.0.2560.1440@0.0.2560.1440" timestamp="1701790666304" />
+    <state width="2518" height="514" key="GridCell.Tab.1.center/2560.292.1440.875/0.25.2560.1415@0.25.2560.1415" timestamp="1701787886706" />
+    <state width="2518" height="514" key="GridCell.Tab.1.left" timestamp="1701790666301">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="514" key="GridCell.Tab.1.left/2560.292.1440.875/0.0.2560.1440@0.0.2560.1440" timestamp="1701790666301" />
+    <state width="2518" height="514" key="GridCell.Tab.1.left/2560.292.1440.875/0.25.2560.1415@0.25.2560.1415" timestamp="1701787886704" />
+    <state width="2518" height="514" key="GridCell.Tab.1.right" timestamp="1701790666306">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="514" key="GridCell.Tab.1.right/2560.292.1440.875/0.0.2560.1440@0.0.2560.1440" timestamp="1701790666306" />
+    <state width="2518" height="514" key="GridCell.Tab.1.right/2560.292.1440.875/0.25.2560.1415@0.25.2560.1415" timestamp="1701787886706" />
+    <state x="768" y="298" key="SettingsEditor" timestamp="1701790894893">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="768" y="298" key="SettingsEditor/2560.292.1440.875/0.0.2560.1440@0.0.2560.1440" timestamp="1701790894893" />
+    <state x="683" y="414" key="new project wizard" timestamp="1701791254674">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="683" y="414" key="new project wizard/2560.292.1440.875/0.0.2560.1440@0.0.2560.1440" timestamp="1701791254674" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -230,21 +320,5 @@
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

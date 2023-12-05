@@ -20,6 +20,13 @@
         <module>springboot-base</module>
 <!--        动态数据源、mybatis-->
         <module>springboot-datasource</module>
+        <module>springboot-socket</module>
+        <module>springboot-mybatis</module>
+        <module>springboot-redis</module>
+        <module>springboot-es</module>
+        <module>springboot-opencv</module>
+        <module>springboot-cache</module>
+        <module>springboot-windows</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

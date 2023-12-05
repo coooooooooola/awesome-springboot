@@ -13,6 +13,10 @@ import java.net.UnknownHostException;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArraySet;
 
+/**
+ * java实现websocket的五种方式：https://www.jianshu.com/p/cfd77316546a
+ * 在线websocket测试工具：http://coolaf.com/tool/chattest
+ */
 @Slf4j
 @ServerEndpoint(value = "/wsdemo", encoders = {SocketEncoder.class})
 @Component
@@ -43,6 +47,7 @@ public class MyWebSocket {
     public void onOpen(Session session) {
 
         try {
+            log.info("----------------");
             this.session = session;
             webSocketSet.add(this);     //加入set中
             addOnlineCount();           //在线数加1

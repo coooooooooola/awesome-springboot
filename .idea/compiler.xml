@@ -2,26 +2,40 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-cache" />
         <module name="springboot-demo" />
-        <module name="springboot-base" />
-        <module name="springboot-socket" />
+        <module name="springboot-opencv" />
         <module name="springboot-datasource" />
+        <module name="springboot-es" />
+        <module name="springboot-windows" />
+        <module name="springboot-socket" />
+        <module name="springboot-redis" />
+        <module name="springboot-base" />
+        <module name="springboot-mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot-elasticsearch" target="1.8" />
       <module name="springbootdemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-base" options="-parameters" />
-      <module name="springboot-datasource" options="" />
+      <module name="springboot-cache" options="-parameters" />
+      <module name="springboot-datasource" options="-parameters" />
       <module name="springboot-demo" options="-parameters" />
+      <module name="springboot-es" options="-parameters" />
+      <module name="springboot-mybatis" options="-parameters" />
+      <module name="springboot-opencv" options="-parameters" />
+      <module name="springboot-redis" options="-parameters" />
       <module name="springboot-socket" options="-parameters" />
+      <module name="springboot-windows" options="-parameters" />
       <module name="springbootdemo" options="" />
     </option>
   </component>
