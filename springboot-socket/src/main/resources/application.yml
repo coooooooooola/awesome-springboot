@@ -1,0 +1,5 @@
+spring:
+   profiles:
+      active: macdev
+mybatis:
+   mapperLocations: classpath:/mapper/*.xml

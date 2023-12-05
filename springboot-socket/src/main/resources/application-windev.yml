@@ -1,0 +1,21 @@
+spring:
+  config:
+    activate:
+      on-profile: windev
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/csui?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: Mysql@123456
+    druid:
+      test-while-idle: false
+      validation-query: SELECT 1
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+server:
+  port: 8081
+  tomcat:
+    connection-timeout: 60000
+logging:
+  config: classpath:logback-local.xml

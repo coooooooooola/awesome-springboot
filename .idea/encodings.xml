@@ -5,5 +5,10 @@
     <file url="file://$PROJECT_DIR$/springboot-base/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-base/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-datasource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-datasource/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-socket/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-socket/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
 </project>

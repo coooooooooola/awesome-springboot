@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b953f36e-8953-4507-87a2-5b95cac18b21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-datasource/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-datasource/src/main/java/com/zeburan/datasource/config/DynamicDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-datasource/src/main/java/com/zeburan/datasource/config/DynamicDataSourceAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-datasource/src/main/java/com/zeburan/datasource/config/DynamicDataSourceContextHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-datasource/src/main/java/com/zeburan/datasource/config/DynamicDataSourceRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-datasource/src/main/java/com/zeburan/datasource/config/TargetDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-datasource/src/main/java/com/zeburan/datasource/controller/DataSourceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-socket/src/main/java/com/zeburan/springbootsocket/config/MyWebSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-socket/src/main/java/com/zeburan/springbootsocket/config/SocketEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-socket/src/main/java/com/zeburan/springbootsocket/config/TimeTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-socket/src/main/resources/application-macdev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-socket/src/main/resources/application-windev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-socket/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-socket/src/main/resources/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +51,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-base" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/IdeaProject/awesome-springboot/springboot-socket/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProject\awesome-springboot\springboot-socket\src\main\resources" />
+      <recent name="$PROJECT_DIR$/springboot-base" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="D:\IdeaProject\awesome-springboot\springboot-base\src\main\resources" />
+      <recent name="D:\IdeaProject\awesome-springboot\springboot-base\src\main" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/mapper" />
     </key>
@@ -69,110 +83,83 @@
       <recent name="com.zeburan.springboot.model" />
       <recent name="com.zeburan.springboot" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/springboot-base" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="D:\IdeaProject\awesome-springboot\springboot-base\src\main\resources" />
-      <recent name="D:\IdeaProject\awesome-springboot\springboot-base\src\main" />
-      <recent name="D:\IdeaProject\awesome-springboot\springboot-base\src\main\java\com\zeburan\springbootbase" />
-    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringbootBaseApplication">
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+  <component name="RunManager" selected="Spring Boot.SpringbootSocketApplication">
+    <configuration default="true" type="JetRunConfigurationType">
       <module name="springbootdemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="springbootdemo" />
       <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MyApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springbootdemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zeburan.springboot.MyApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zeburan.springboot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zeburan.springboot.MyApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springboot-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zeburan.springboot.MyApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zeburan.springboot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zeburan.springboot.MyApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringbootBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springboot-base" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zeburan.springbootbase.SpringbootBaseApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zeburan.springbootbase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zeburan.springbootbase.SpringbootBaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootSocketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-socket" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zeburan.springbootsocket.SpringbootSocketApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeburan.springbootsocket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SpringbootSocketApplication" />
         <item itemvalue="Spring Boot.SpringbootBaseApplication" />
         <item itemvalue="Spring Boot.MyApplication (1)" />
         <item itemvalue="Spring Boot.MyApplication" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -187,6 +174,7 @@
       <workItem from="1698927149549" duration="3820000" />
       <workItem from="1698982118843" duration="6381000" />
       <workItem from="1701652066709" duration="2788000" />
+      <workItem from="1701737910522" duration="3223000" />
     </task>
     <servers />
   </component>

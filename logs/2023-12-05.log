@@ -1,0 +1,9 @@
+2023-12-05 17:55:03.814 INFO  [][] [main] c.z.s.SpringbootSocketApplication:55 - Starting SpringbootSocketApplication using Java 1.8.0_40 on DESKTOP-7KPIAVG with PID 23028 (D:\IdeaProject\awesome-springboot\springboot-socket\target\classes started by thtf in D:\IdeaProject\awesome-springboot)
+2023-12-05 17:55:03.821 INFO  [][] [main] c.z.s.SpringbootSocketApplication:663 - The following profiles are active: macdev
+2023-12-05 17:55:05.935 WARN  [][] [main] o.m.s.m.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.zeburan.springbootsocket]' package. Please check your configuration.
+2023-12-05 17:55:08.122 INFO  [][] [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure:55 - Init DruidDataSource
+2023-12-05 17:55:08.355 INFO  [][] [main] r.y.c.ClickHouseDriver:42 - Driver registered
+2023-12-05 17:55:08.551 INFO  [][] [main] c.a.druid.pool.DruidDataSource:1010 - {dataSource-1} inited
+2023-12-05 17:55:09.180 INFO  [][] [main] c.z.s.SpringbootSocketApplication:61 - Started SpringbootSocketApplication in 6.729 seconds (JVM running for 9.906)
+2023-12-05 17:55:22.199 INFO  [][] [SpringApplicationShutdownHook] c.a.druid.pool.DruidDataSource:2170 - {dataSource-1} closing ...
+2023-12-05 17:55:22.203 INFO  [][] [SpringApplicationShutdownHook] c.a.druid.pool.DruidDataSource:2243 - {dataSource-1} closed
