@@ -1,6 +1,13 @@
 spring:
   redis:
-    host: localhost
+    host: 127.0.0.1
     port: 6379
-    password: 123456
+    password:
     database: 0
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/wyd?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: 19920409
+    druid:
+      test-while-idle: false
+      validation-query: SELECT 1
