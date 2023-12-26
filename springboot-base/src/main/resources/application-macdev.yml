@@ -3,12 +3,20 @@ spring:
     activate:
       on-profile: macdev
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/wyd?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=Asia/Shanghai
-    username: root
-    password: 19920409
-    druid:
-      test-while-idle: false
-      validation-query: SELECT 1
+    master:
+      url: jdbc:mysql://127.0.0.1:3306/wyd?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+      username: root
+      password: 19920409
+      druid:
+        test-while-idle: false
+        validation-query: SELECT 1
+    xxl:
+      url: jdbc:mysql://127.0.0.1:3306/wyd-test?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+      username: root
+      password: 19920409
+      druid:
+        test-while-idle: false
+        validation-query: SELECT 1
   servlet:
     multipart:
       max-file-size: 50MB

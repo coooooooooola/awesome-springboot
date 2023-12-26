@@ -1,4 +1,4 @@
-package com.zeburan.datasource.config;
+package com.zeburan.springbootbase.config.datasource;
 
 import java.lang.annotation.*;
 
@@ -6,7 +6,5 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 public @interface TargetDataSource {
-
-    //数据源标识参数的位置，从0开始计
-    int dbidIndex() default 0;
+    String name() default "masterSource";
 }

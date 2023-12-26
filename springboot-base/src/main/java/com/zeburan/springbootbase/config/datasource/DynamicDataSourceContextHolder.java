@@ -1,4 +1,4 @@
-package com.zeburan.datasource.config;
+package com.zeburan.springbootbase.config.datasource;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,8 +12,8 @@ public class DynamicDataSourceContextHolder {
     public static List<String> dataSourceIds = new ArrayList<String>();
 
     //设置数据源
-    public static void setDataSourceType(String dataSourceType) {
-        contextHolder.set(dataSourceType);
+    public static void setDataSourceType(String dataSource) {
+        contextHolder.set(dataSource);
     }
 
     //获取数据源

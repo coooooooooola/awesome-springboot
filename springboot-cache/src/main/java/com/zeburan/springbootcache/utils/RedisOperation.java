@@ -9,11 +9,15 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * 封装了redis基础的数据操作
+ */
 @Component
-public class RedisUtil {
+public class RedisOperation {
 
     @Autowired
     private RedisTemplate redisTemplate;
+
     /**
      * 给一个指定的 key 值附加过期时间
      *

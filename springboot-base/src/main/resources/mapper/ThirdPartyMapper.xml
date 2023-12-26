@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zeburan.springbootbase.dao.">
+
+    <select id="checkUser" resultType="com.alibaba.fastjson.JSONObject">
+        SELECT id , username
+        FROM users
+        WHERE username = #{username}
+          AND password = #{password}
+          AND is_delete =0
+    </select>
+
+
+    <resultMap id="userInfo" type="com.zeburan.springbootbase.model.SessionUserInfo">
+        <id column="userId" property="userId"/>
+        <result column="username" property="username"/>
+        <result column="nickname" property="nickname"/>
+    </resultMap>
+
+    <select id="getUserInfo" resultMap="userInfo">
+        SELECT id ,
+               username,
+               nickname
+        FROM users
+        WHERE username = #{username}
+          AND is_delete=0
+    </select>
+</mapper>
